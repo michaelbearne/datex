@@ -175,7 +175,7 @@ defmodule Datex.Time do
             "an hour and #{min} minutes ago"
           diff >= 7200 -> 
             min = rem(diff, 3600) |> div(60) 
-            "#{div(diff, 3600)} hours and #{min} minutes later"  
+            "#{div(diff, 3600)} hours and #{min} minutes ago"  
         end
     end
   end
